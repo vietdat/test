@@ -1,0 +1,48 @@
+@media (max-width: 1024px) {
+	body{background: url('../images/bg.png') no-repeat scroll -150px/cover}
+}
+@media (max-width: 768px) {  
+  	#menu{display: none;}
+  	#mobile-menu{display: inline-block;}
+  	.logoft{width:60%;}
+  	.slogan{width: 240px;top:5px;left: 10px;}
+  	#section8{padding:0 20px;}
+
+}
+@media (max-width: 640px) {
+	.bottom {position: static;}
+	.bottom h3{margin: 5px 0}
+	.bottom p{text-align: left;}
+	.bottom p img {float: left;margin-bottom: 0;}
+	.logoft {width: 40%;}
+	#slogan1 {width: 80%}
+	.butterfly{display: none;}
+}
+
+@media (max-width: 580px) {
+	body{background: url('../images/bg.png') no-repeat scroll -200px/cover}
+  
+}
+
+@media (max-width: 420px) {
+	#logo1,#svg{transform:scale(0.6);}
+	
+}
+@media (max-width: 375px) {
+	.imgleft{width: 50%;right: 0;left: 0;margin:0;top: 20%;}
+	.logoft {width: 60%;}
+	.product {width: 80%;left: 0;right: 0;margin: auto;top:18%;bottom: auto !important;}
+  	.des{width: 50%;left: 0;right: 0;margin: auto;}
+  	#section2{background: #fff}
+  	#slide {width: 90%;left: 0;right: 0;margin: auto;}
+  	.bottom p{text-align: center;}
+  	.bottom p img {
+	    margin: auto;float: none;
+	    display: block;
+	}
+}
+@media (max-width: 320px) {
+	#logo1,#svg{margin-left: -30px;}
+	#slogan1{width:70%;margin-top: -20px;}
+	
+}
